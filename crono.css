@@ -1,0 +1,35 @@
+body{
+  background: url(tiempo.jpeg);
+  background-size: cover;
+    
+}
+
+#crono{
+  padding: 20px;
+  border: 5px black double;
+  width: 350px;
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+  float: right;
+  margin: 2em 2em 2em 2em;
+  opacity: 0.50;
+}
+#clock{
+  padding: 10px 20px;
+  width: 300px;
+  border: 1px solid black;
+  font: bold 1em Oswald, arial;
+  text-align: center;
+  margin: 4px;
+  background-color: white;
+  border-radius: 3px; 
+} 
+
+#crono [type=button]{
+  margin: 10px;
+  font: normal Oswald, arial;
+  width: 100px;
+  border-radius: 3px;
+  padding: 5px;
+}
